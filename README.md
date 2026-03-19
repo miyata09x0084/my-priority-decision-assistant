@@ -1,5 +1,4 @@
-# Secretary Assistant
-### — Priority Decision Assistant
+# Secretary Assistant — Priority Decision Assistant
 
 > A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) Plugin
 >
