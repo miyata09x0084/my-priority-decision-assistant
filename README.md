@@ -1,6 +1,8 @@
 # Priority Decision Assistant
 
-**Your AI secretary that turns a voice dump into an organized day.**
+> A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) Plugin
+
+**A Claude Code plugin that turns a voice dump into an organized day — your AI-powered secretary agent.**
 
 Speak freely for 2–5 minutes about everything on your mind — using voice input like [Aqua Voice](https://withaqua.com/) — and this Claude Code plugin will automatically classify your tasks with the Eisenhower Matrix, prioritize them with AI reasoning, and schedule time blocks on your Google Calendar.
 
