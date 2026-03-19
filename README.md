@@ -2,7 +2,7 @@
 
 > A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) Plugin
 >
-> あなたのAI秘書エージェント。思いついたことを声で話すだけで、自動で構造化・優先順位付けし、Googleカレンダーにスケジュールしてくれる Claude Code プラグインです。
+> AI秘書エージェントです。思いついたことを声で話すだけで、自動で構造化・優先順位付けし、Googleカレンダーにスケジュールしてくれる Claude Code プラグインです。
 
 **Just speak what's on your mind. AI automatically structures, prioritizes, and schedules it on Google Calendar.**
 
