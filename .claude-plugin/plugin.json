@@ -1,0 +1,8 @@
+{
+  "name": "priority-assistant",
+  "description": "日々のタスクを入力すると、アイゼンハワーマトリクスとAI判断で優先順位を自動分類し、Googleカレンダーに時間ブロックとして登録するエージェント",
+  "version": "1.1.0",
+  "author": {
+    "name": "miyata_ryo"
+  }
+}
