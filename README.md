@@ -24,10 +24,10 @@ Speak freely for 2–5 minutes about everything on your mind — using voice inp
 Just talk naturally. The AI handles messy, unstructured input:
 
 ```
-えーっと、今日やらなきゃいけないのが企画書の作成、これ締切今日なんだよね。
-あとチームMTGの準備もしないと。午後だっけ。
-メール関連は…返信しなきゃいけないやつが何通かあるな。
-あ、あとスキルアップ系で、来週の勉強会の資料をそろそろ作り始めたい。
+Uhh, so the big thing today is finishing the project proposal — that's due today.
+I also need to prep for the team meeting. I think it's this afternoon?
+Emails… I've got a few I really need to reply to.
+Oh, and I should start putting together slides for next week's study group.
 done
 ```
 
@@ -36,28 +36,28 @@ done
 Of course, clean bullet-point input works too:
 
 ```
-企画書の作成
-チームMTG準備
-メール返信
-勉強会の資料作成
+Write project proposal
+Prep for team meeting
+Reply to emails
+Create study group slides
 done
 ```
 
 ### Output
 
 ```
-┌───────────────────────────────┬───────────────────────────────┐
-│  🔴 Q1: Urgent & Important    │  🟡 Q2: Important, Not Urgent │
-│  (Do it now)                  │  (Schedule it)                │
-│                               │                               │
-│  • 企画書の作成                │  • 勉強会の資料作成            │
-│  • チームMTG準備               │                               │
-├───────────────────────────────┼───────────────────────────────┤
-│  🟠 Q3: Urgent, Not Important │  ⚪ Q4: Neither                │
-│  (Delegate / batch)           │  (Eliminate)                  │
-│                               │                               │
-│  • メール返信                  │                               │
-└───────────────────────────────┴───────────────────────────────┘
+┌───────────────────────────────────┬───────────────────────────────────┐
+│  🔴 Q1: Urgent & Important        │  🟡 Q2: Important, Not Urgent     │
+│  (Do it now)                      │  (Schedule it)                    │
+│                                   │                                   │
+│  • Write project proposal         │  • Create study group slides      │
+│  • Prep for team meeting          │                                   │
+├───────────────────────────────────┼───────────────────────────────────┤
+│  🟠 Q3: Urgent, Not Important     │  ⚪ Q4: Neither                    │
+│  (Delegate / batch)               │  (Eliminate)                      │
+│                                   │                                   │
+│  • Reply to emails                │                                   │
+└───────────────────────────────────┴───────────────────────────────────┘
 ```
 
 Each task gets a priority ranking with reasoning, estimated duration, and optimization tips.
@@ -103,12 +103,12 @@ Invoke the skill in Claude Code:
 /prioritize
 ```
 
-Or use natural language (Japanese):
+Or use natural language:
 
 ```
-今日やることを整理したい
-タスクの優先順位をつけて
-何から手をつけるべき？
+I want to organize what I need to do today
+Prioritize my tasks
+What should I tackle first?
 ```
 
 ### Workflow
@@ -177,7 +177,7 @@ Edit `skills/prioritize/SKILL.md` to customize:
 - Calendar color mapping
 - Timezone (default: `Asia/Tokyo`)
 
-> **Note:** This skill currently operates in Japanese. Contributions for other language support are welcome.
+> **Note:** This skill supports multiple languages. The default prompts are in English, but it handles input in any language Claude supports.
 
 ## License
 
